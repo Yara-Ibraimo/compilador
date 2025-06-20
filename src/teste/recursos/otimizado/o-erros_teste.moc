@@ -1,0 +1,13 @@
+int soma(int a, int b) {
+    int resultado;
+    resultado = a + b$     // Erro léxico: símbolo inválido `$`
+    return resultado        // Falta ponto e vírgula
+}
+
+void main(void) {
+    int x = 5;
+    int y = 10              // Falta ponto e vírgula
+    int z;
+    z = soma(x, y;          // Erro de parênteses
+    write(z)                // Falta ponto e vírgula
+}

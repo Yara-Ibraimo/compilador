@@ -1,0 +1,24 @@
+/* e-fólio B
+	Compilação 2024/25
+	Linguagem: MOC (My Own C)
+	Compilador da linguagem: MOCC
+	Grupo MudMasters B
+*/
+
+// Ficheiro com erros sobre a gramatica MOCC.g4
+
+int soma(int a, int b)
+{
+    int resultado;
+    resultado = a + b$
+    return resultado
+}
+
+void main(void)
+{
+    int x = 5;
+    int y = 10
+    int z;
+    z = soma(x, y;
+    write(z)
+}

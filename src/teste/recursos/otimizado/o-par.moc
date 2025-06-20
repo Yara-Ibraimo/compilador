@@ -1,0 +1,30 @@
+/* e-fólio Global
+	Compilação 2024/25
+	Linguagem: MOC (My Own C)
+	Compilador da linguagem: MOCC
+	Grupo MudMasters Global
+*/
+
+// Ficheiro otimizado sem erros sobre a gramatica MOCC.g4
+// Verificação de número par
+
+int par(int x) {
+    registerint metade;
+    metade = (x / 2) * 2;
+    if (x == metade) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+void main(void) {
+    registerint numero;
+    writes("Introduza um número: ");
+    numero = read();
+    if (par(numero) == 1) {
+        writes("É par");
+    } else {
+        writes("É ímpar");
+    }
+}

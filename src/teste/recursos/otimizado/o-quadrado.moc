@@ -1,0 +1,22 @@
+/* e-fólio Global
+	Compilação 2024/25
+	Linguagem: MOC (My Own C)
+	Compilador da linguagem: MOCC
+	Grupo MudMasters Global
+*/
+
+// Ficheiro otimizado sem erros sobre a gramatica MOCC.g4
+// Cálculo do quadrado de um número
+
+void main(void)
+{
+    registerint valor;
+    registerint resultado;
+
+    writes("Introduza um número: ");
+    valor = read();
+
+    resultado = valor * valor;
+
+    write(resultado);
+}

@@ -1,0 +1,26 @@
+/* e-fólio B
+	Compilação 2024/25
+	Linguagem: MOC (My Own C)
+	Compilador da linguagem: MOCC
+	Grupo MudMasters B
+*/
+
+// Ficheiro sem erros sobre a gramatica MOCC.g4
+// Fatorial versão recursiva
+
+int fact(int);
+void main(void);
+
+int fact (int k)
+{
+	if (k<=1) { return 1; }
+	else {return k * fact (k-1); }
+}
+
+void main(void)
+{
+	int n;
+	writes("Introduza inteiro: ");
+	n = read();
+	write(fact(n));
+}

@@ -1,0 +1,19 @@
+int minimo(int a, int b) {
+    if (a < b) {
+        return a;
+    } else {
+        return b;
+    }
+}
+
+void main(void) {
+    int x;
+    int y;
+    int menor;
+
+    x = read();
+    y = read();
+
+    menor = minimo(x, y);
+    write(menor);
+}

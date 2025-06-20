@@ -1,0 +1,31 @@
+/* e-fólio B
+   Compilação 2024/25
+   Linguagem: MOC (My Own C)
+   Compilador da linguagem: MOCC
+   Grupo MudMasters B
+*/
+
+// Versão iterativa do cálculo do fatorial
+
+void main(void)
+{
+    registerint i, num;
+    registerlong result;
+
+    // Leitura do valor de entrada
+    writes("Introduza inteiro: ");
+    num = read();
+
+    // Cálculo iterativo do fatorial
+    result = 1;
+    i = 2;
+
+    while (i <= num)
+    {
+        result = result * i;
+        i = i + 1;
+    }
+
+    // Saída do resultado
+    write(result);
+}

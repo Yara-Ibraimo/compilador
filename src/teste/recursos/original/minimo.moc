@@ -1,0 +1,29 @@
+/* e-fólio B
+	Compilação 2024/25
+	Linguagem: MOC (My Own C)
+	Compilador da linguagem: MOCC
+	Grupo MudMasters B
+*/
+
+// Ficheiro sem erros sobre a gramatica MOCC.g4
+// Minimo de dois números
+
+int minimo(int a, int b) {
+    if (a < b) {
+        return a;
+    } else {
+        return b;
+    }
+}
+
+void main(void) {
+    int x;
+    int y;
+    int menor;
+
+    x = read();
+    y = read();
+
+    menor = minimo(x, y);
+    write(menor);
+}

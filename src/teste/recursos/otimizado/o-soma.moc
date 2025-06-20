@@ -1,0 +1,24 @@
+/* e-fólio Global
+	Compilação 2024/25
+	Linguagem: MOC (My Own C)
+	Compilador da linguagem: MOCC
+	Grupo MudMasters Global
+*/
+
+// Ficheiro otimizado sem erros sobre a gramatica MOCC.g4
+// Soma dos primeiros N inteiros
+
+void main(void)
+{
+    registerint i, n, total;
+
+    writes("Introduza um número inteiro: ");
+    n = read();
+
+    total = 0;
+    for (i = 1; i <= n; i = i + 1) {
+        total = total + i;
+    }
+
+    write(total);
+}

@@ -1,0 +1,24 @@
+/* e-fólio B
+	Compilação 2024/25
+	Linguagem: MOC (My Own C)
+	Compilador da linguagem: MOCC
+	Grupo MudMasters B*/
+
+// Ficheiro sem erros sobre a gramatica MOCC.g4
+
+int fact(int n) {
+    if (n == 0) {
+        return 1;
+    } else {
+        return n * fact(n - 1);
+    }
+}
+
+void main(void) {
+    int num;
+    int result;
+    
+    num = read();
+    result = fact(num);
+    write(result);
+}
